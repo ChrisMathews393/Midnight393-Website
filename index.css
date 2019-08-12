@@ -1,0 +1,144 @@
+#landing
+{
+ background-color:black;
+ height:100vh;
+}
+
+#top
+{
+ width:100%;
+}
+
+#top > img
+{
+ width:100%;
+}
+
+#body
+{
+ width:100%; 
+}
+
+#headText
+{
+ text-align:center;
+}
+
+#headText > p
+{
+ display:inline-block;
+ font-family:Gotham, Helvetica, Arial;
+ font-size:4vw;
+ text-align:center;
+ color: white;
+ width:80%;
+}
+@media only screen and (min-width:721px) and (max-width:1080px)
+{
+ #headText > p
+ {
+  font-size:2.5vw;
+  width:85%;
+ }
+}
+
+@media only screen and (min-width:1081px)
+{
+ #headText > p
+ {
+  font-size:2vw;
+  width:90%;
+ }
+}
+
+#quickLinks
+{
+ width:80%;
+ text-align:center;
+ margin-left:auto;
+ margin-right:auto;
+}
+
+@media only screen and (min-width:721px) and (max-width:1080px)
+{
+ #quickLinks
+ {
+  width:85%;
+  text-align:center;
+  margin-left:auto;
+  margin-right:auto;
+ }
+}
+
+@media only screen and (min-width:1081px)
+{
+ #quickLinks
+ {
+  width:90%;
+  text-align:center;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:10vh;
+ }
+}
+
+#qlGrid
+{
+ display:grid;
+ grid-template-columns:50% 50%;
+ justify-content:center;
+ grid-template-rows:auto auto auto;
+ text-align:center;
+}
+
+@media only screen and (min-width:721px) and (max-width:1080px)
+{
+ #qlGrid
+ {
+  display:grid;
+  grid-template-columns:33% 33% 33%;
+  grid-template-rows:auto auto;
+  justify-content:center;
+  text-align:center;
+ }
+}
+
+@media only screen and (min-width:1081px)
+{
+ #qlGrid
+ {
+  display:grid;
+  grid-template-columns:16.66% 16.66% 16.66% 16.66% 16.66% 16.66%;
+  grid-template-rows:auto;
+  justify-content:center;
+ }
+}
+
+.qlLogo
+{
+ width:50%;
+ margin-left:auto;
+ margin-right:auto;
+ margin-bottom:10vh;
+}
+
+#below
+{
+ height:100vh;
+ background-image:linear-gradient(#000000, #55489d)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
