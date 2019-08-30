@@ -92,6 +92,21 @@ a:hover > h1
 	color:#55489D;
 }
 
+a.tf2link:hover > h1
+{
+	color:#FF7400;
+}
+
+a.inslink:hover > h1
+{
+	color:#CAAB31;
+}
+
+a.csgolink:hover > h1
+{
+	color:#CAAB31;
+}
+
 a:active
 {
 	text-decoration:none;
@@ -114,7 +129,7 @@ a:visited
 	width:80%;	
 }
 
-#other
+#tf2
 {
 	width:80%;	
 }
