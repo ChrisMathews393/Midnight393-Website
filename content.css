@@ -11,6 +11,25 @@ body
 width: 100%;
 height: 26vh;
 background-color:black;
+display:grid;
+}
+
+@media only screen and (max-width:720px)
+{
+	#header
+	{
+		grid-template-columns:100%;
+		grid-template-rows:10% 10% 10% 10%;
+	}
+}
+
+@media only screen and (min-width:721px)
+{
+	#header
+	{
+		grid-template-columns:25% 25% 25% 25%;
+		grid-template-rows:100%;
+	}
 }
 
 #pageNav
