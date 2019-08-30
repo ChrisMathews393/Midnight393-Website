@@ -4,16 +4,19 @@
  height:100vh;
 }
 
-#top
+.logo
 {
  width:100%;
 }
 
-#top > img
+.logo
 {
  width:100%;
 }
-
+body
+{
+	margin: 0;
+}
 #body
 {
  width:100%; 
