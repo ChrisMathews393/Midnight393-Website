@@ -9,7 +9,7 @@ body
 #header
 {
 width: 100%;
-height: 26vh;
+height: 16vw;
 background-color:black;
 display:grid;
 }
@@ -30,6 +30,31 @@ display:grid;
 		grid-template-columns:25% 25% 25% 25%;
 		grid-template-rows:100%;
 	}
+}
+
+.headerLogo
+{
+	margin-top:auto;
+	margin-bottom:auto;
+}
+
+.headerLogo > a > img
+{
+	width:15vw;
+	height:auto;
+}
+
+.headerLink
+{
+	margin-top:auto;
+	margin-bottom:auto;
+}
+
+.headerLink > a > h1
+{
+	color:white;
+    font-family:Gotham, Helvetica, Arial;
+	font-size:2vw;
 }
 
 #pageNav
@@ -153,14 +178,6 @@ a:visited
 	width:80%;	
 }
 
-.sectionHead
-{
-	text-align:center;
-	color:white;
-	background-color:black;
-	font-size:10vh;
-    font-family:Gotham, Helvetica, Arial;
-}
 
 .sectionLinks
 {
