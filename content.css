@@ -5,3 +5,54 @@
 width: 100%;
 height: 11.8%;
 }
+
+#pageNav
+{
+	width:100%;
+	display:grid;
+	grid-template-rows:100%;
+	grid-template-columns:25% 25% 25% 25%;
+}
+
+#pageNavItem > h1
+{
+	font-weight:bold;
+	font-size:20vh;
+}
+
+#pageNavItem > a > h1
+{
+	font-weight:normal;
+	font-size:20vh;
+}
+
+#csgo
+{
+	width:80%;	
+}
+
+#ins
+{
+	width:80%;	
+}
+
+#other
+{
+	width:80%;	
+}
+
+.sectionHead
+{
+	text-align:center;
+	color:white;
+	background-color:black;
+	font-size:10vh;
+}
+
+.sectionLinks
+{
+	text-align:left;
+	background-color:white;
+	color:black;
+	font-size:5vh;
+}
