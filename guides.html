@@ -6,6 +6,7 @@
 <meta name="author" content="Midnight Monsters">
 <title>Guides</title>
 <link rel="stylesheet" type="text/css" href="./content.css">
+<script src="./guides.js"></script>
 </head>
 
 <body>
@@ -29,28 +30,22 @@
 
 <div id="pageNav"><!--navbar with links to each section-->
 
-<div class="pageNavItem">
-	<h1>Guides</h1>
-</div>
 
-<div class="pageNavItem">
-	<a id="csgolink" href="#csgo"><h1>CSGO</h1></a>
-</div>
+	<button>Guides</button>
 
-<div class="pageNavItem">
-	<a class="inslink" href="#ins"><h1>Insurgency</h1></a>
-</div>
 
-<div class="pageNavItem">
-	<a class="tf2link" href="#tf2"><h1>TF2</h1></a>
-</div>
+	<button class="tablinks" id="csgolink" onclick="switchTab(event, 'csgo')">CSGO</button>
+
+	<button class="tablinks" id="inslink" onclick="switchTab(event, 'ins')">Insurgency</button>
+
+	<button class="tablinks" id="tf2link" onclick="switchTab(event, 'tf2')">TF2</button>
+
 
 </div>
 
-<div id="content"><!--container for the whole rest of the page. Will be useful for resizing everything later, but we don't need to mess with it-->
 
 
-<div id="csgo">
+<div id="csgo" class="tabcontent">
 
 
 <div class="sectionLinks"> <!--All of the links beneath each section header. Links to each individual guide go here-->
@@ -101,7 +96,7 @@
 
 </div>
 
-<div id="ins">
+<div id="ins" class="tabcontent">
 
 
 
@@ -162,7 +157,7 @@
 
 </div>
 
-<div id="tf2"><!--If you want to have guides for server stuff, nginx, sourcemod, etc.-->
+<div id="tf2" class="tabcontent"><!--If you want to have guides for server stuff, nginx, sourcemod, etc.-->
 
 
 
@@ -177,7 +172,7 @@
 	</div>
 </div>
 </div>
-	</div>
+	
 <div id="footer">
    <div><p><a href="#top">Top</a></p></div>
    <div><p><a href="supportUs.html">Donate</a></p></div>
