@@ -31,20 +31,20 @@
 <div id="pageNav"><!--navbar with links to each section-->
 
 
-	<button>Guides</button>
+	<button class="tablinks" id="defaultOpen" onclick="switchTab('guides', this, '#FFFFFF')">Guides</button>
 
 
-	<button class="tablinks" id="csgolink" onclick="switchTab(event, 'csgo')">CSGO</button>
+	<button class="tablinks" id="csgolink" onclick="switchTab('csgo', this, '#714098')">CSGO</button>
 
-	<button class="tablinks" id="inslink" onclick="switchTab(event, 'ins')">Insurgency</button>
+	<button class="tablinks" id="inslink" onclick="switchTab('ins', this, '#CAAB31')">Insurgency</button>
 
-	<button class="tablinks" id="tf2link" onclick="switchTab(event, 'tf2')">TF2</button>
+	<button class="tablinks" id="tf2link" onclick="switchTab('tf2', this, '#FF7400')">TF2</button>
 
 
 </div>
 
 
-
+<div id="guides" class="tabcontent"><p>test</p></div>
 <div id="csgo" class="tabcontent">
 
 

@@ -157,20 +157,7 @@ a:hover > h1
 	color:#55489D;
 }
 
-button#tf2link:hover > h1
-{
-	background-color:#FF7400;
-}
 
-button#inslink:hover > h1
-{
-	background-color:#CAAB31;
-}
-
-button#csgolink:hover > h1
-{
-	background-color:#714098;
-}
 
 a:active
 {
