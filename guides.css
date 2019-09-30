@@ -55,6 +55,13 @@ display:grid;
 }
 }
 
+/*
+.headerLogo > a > img:hover
+{
+	box-shadow: inset 10px 10px purple;
+}
+*/
+
 .headerLink
 {
 	margin-top:auto;
@@ -86,25 +93,41 @@ display:grid;
 	grid-template-rows:100%;
 	grid-template-columns:25% 25% 25% 25%;
 	text-align:center;
+	margin-top:4px;
+	margin-bottom:8px;
 }
 
-
+@media only screen and (max-width:720px)
+{
+	#pageNav
+	{
+		grid-template-rows:25% 25% 25% 25%;
+		grid-template-columns: 100%;
+	}
+}
 
 button
 {
-	font-weight:bold;
+	border:none;
 	font-size:5vw;
     font-family:Gotham, Helvetica, Arial;
 	text-align:center;
 }
 
+@media only screen and (max-width:720px)
+{
+	button.tablinks
+	{
+		margin-top: 4px;
+		margin-bottom:4px;
+	}
+}
+
 @media only screen and (min-width:721px) and (max-width:1080px)
 {
 	button
 	{
-		font-weight:bold;
 	    font-size:4vw;
-        font-family:Gotham, Helvetica, Arial;
 	}
 }
 
@@ -112,17 +135,46 @@ button
 {
 	button
 	{
-		font-weight:bold;
 	    font-size:3vw;
-        font-family:Gotham, Helvetica, Arial;
+		margin-left: 4px;
+		margin-right: 4px;
 	}
 }
 
+button#defaultOpen
+{
+	font-weight:bold;
+	pointer-events: none;
+}
+
+button#csgolink
+{
+	border: 2px solid #714098;
+}
+
+button#inslink
+{
+	border: 2px solid #CAAB31;
+}
+
+button#tf2link
+{
+	border: 2px solid #FF7400;
+}
+
+button.tablinks:hover:not(#defaultOpen)
+{
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	cursor:pointer;
+}
+
+/*
 button
 {
 	font-weight:normal;
 	font-size:5vw;
 	font-family:Gotham, Helvetica, Arial;
+	
 }
 
 @media only screen and (min-width:721px) and (max-width:1080px)
@@ -144,6 +196,7 @@ button
         font-family:Gotham, Helvetica, Arial;
 	}
 }
+*/
 
 a:link
 {
@@ -197,6 +250,10 @@ a:visited
 	margin-right:auto;
 }
 
+.sidebar > ol > li
+{
+	margin-bottom: 30px;
+}
 
 .sectionLinks
 {
@@ -253,12 +310,12 @@ a:visited
 {
 	.sidebar > ol > li 
 {
-	font-size:5vh;
+	font-size:3vh;
 }
 
 .sidebar > ol > li > a
 {
-	font-size:5vh;
+	font-size:3vh;
 }
 }
 
@@ -298,6 +355,29 @@ a:visited
 #tf2 > div > div.sidebar
 {
 	background-color:#FFAA64;
+}
+
+#guideSplash
+{
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#guideSplash > h1
+{
+	text-align:center;
+	font-size:6vh;
+	text-decoration:none;
+	font-family:Gotham, Helvetica, Arial;
+}
+
+#guideSplash > p
+{
+	text-align:justify;
+	font-size:3vh;
+	text-decoration:none;
+	font-family:Gotham, Helvetica, Arial;
 }
 
 #footer

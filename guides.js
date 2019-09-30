@@ -30,7 +30,7 @@ function switchTab(pageName, elmnt, color) {
   }
 
   // Remove the background color of all tablinks/buttons
-  tablinks = document.getElementsByClassName("tablink");
+  tablinks = document.getElementsByClassName("tablinks");
   for (i = 0; i < tablinks.length; i++) {
     tablinks[i].style.backgroundColor = "";
   }
