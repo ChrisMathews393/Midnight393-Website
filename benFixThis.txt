@@ -1,0 +1,8 @@
+BEN FIX THIS
+homepage: no footer, just links to other pages. OR put play/support us/guides on top and images/text underneath
+
+
+
+FIXED THIS
+
+On super skinny, there is a big gap between the "play" and "guides" links
