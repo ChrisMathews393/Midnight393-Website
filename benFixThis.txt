@@ -2,7 +2,7 @@ BEN FIX THIS
 
 Play page (everything)
 
-fix the patreon logo image
+
 
 
 FIXED THIS
@@ -10,3 +10,5 @@ FIXED THIS
 On super skinny, there is a big gap between the "play" and "guides" links
 
 homepage: no footer, just links to other pages. OR put play/support us/guides on top and images/text underneath
+
+fix the patreon logo image
