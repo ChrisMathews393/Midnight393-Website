@@ -1,0 +1,440 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	margin:0 0 0 0;
+}
+
+#header
+{
+width: 100%;
+height: 16vw;
+background-color:black;
+display:grid;
+}
+
+@media only screen and (max-width:720px)
+{
+	#header
+	{
+		grid-template-columns:100%;
+		grid-template-rows:40% 20% 20% 20%;
+		height:50vh;
+		text-align:center;
+	}
+}
+
+@media only screen and (min-width:721px)
+{
+	#header
+	{
+		grid-template-columns:25% 25% 25% 25%;
+		grid-template-rows:100%;
+	}
+}
+
+.headerLogo
+{
+	margin-top:auto;
+	margin-bottom:auto;
+}
+
+.headerLogo > a > img
+{
+	width:15vw;
+	height:auto;
+}
+
+@media only screen and (max-width:720px)
+{
+	.headerLogo > a > img
+{
+	width:15vw;
+	height:auto;
+}
+}
+
+/*
+.headerLogo > a > img:hover
+{
+	box-shadow: inset 10px 10px purple;
+}
+*/
+
+.headerLink
+{
+	margin-top:auto;
+	margin-bottom:auto;
+}
+
+.headerLink > a > h1
+{
+	color:white;
+    font-family:Gotham, Helvetica, Arial;
+	font-size:2vw;
+}
+
+@media only screen and (max-width:720px)
+{
+	.headerLink > a > h1
+{
+	color:white;
+    font-family:Gotham, Helvetica, Arial;
+	font-size:5vw;
+}
+	
+}
+
+#pageNav
+{
+	width:100%;
+	display:grid;
+	grid-template-rows:100%;
+	grid-template-columns:25% 25% 25% 25%;
+	text-align:center;
+	margin-top:4px;
+	margin-bottom:8px;
+}
+
+@media only screen and (max-width:720px)
+{
+	#pageNav
+	{
+		grid-template-rows:25% 25% 25% 25%;
+		grid-template-columns: 100%;
+	}
+}
+
+button
+{
+	border:none;
+	font-size:5vw;
+    font-family:Gotham, Helvetica, Arial;
+	text-align:center;
+}
+
+@media only screen and (max-width:720px)
+{
+	button.tablinks
+	{
+		margin-top: 4px;
+		margin-bottom:4px;
+	}
+}
+
+@media only screen and (min-width:721px) and (max-width:1080px)
+{
+	button
+	{
+	    font-size:4vw;
+	}
+}
+
+@media only screen and (min-width:1081px)
+{
+	button
+	{
+	    font-size:3vw;
+		margin-left: 4px;
+		margin-right: 4px;
+	}
+}
+
+button#defaultOpen
+{
+	font-weight:bold;
+	pointer-events: none;
+}
+
+button#csgolink
+{
+	border: 2px solid #714098;
+}
+
+button#inslink
+{
+	border: 2px solid #CAAB31;
+}
+
+button#tf2link
+{
+	border: 2px solid #FF7400;
+}
+
+button.tablinks:hover:not(#defaultOpen)
+{
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	cursor:pointer;
+}
+
+/*
+button
+{
+	font-weight:normal;
+	font-size:5vw;
+	font-family:Gotham, Helvetica, Arial;
+	
+}
+
+@media only screen and (min-width:721px) and (max-width:1080px)
+{
+	button
+	{
+		font-weight:normal;
+	    font-size:4vw;
+        font-family:Gotham, Helvetica, Arial;
+	}
+}
+
+@media only screen and (min-width:1081px)
+{
+	button
+	{
+		font-weight:normal;
+	    font-size:3vw;
+        font-family:Gotham, Helvetica, Arial;
+	}
+}
+*/
+
+a:link
+{
+	text-decoration:none;
+	color:black;
+}
+
+a:hover > h1
+{
+	text-decoration:none;
+	color:#55489D;
+}
+
+
+
+a:active
+{
+	text-decoration:none;
+	color:#55489D;
+}
+
+a:visited
+{
+	text-decoration:none;
+	color:black;
+}
+
+.tabcontent
+{
+	display:none;
+}
+
+#csgo
+{
+	width:80%;	
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#ins
+{
+	width:80%;	
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#tf2
+{
+	width:80%;	
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.sidebar > ol > li
+{
+	margin-bottom: 30px;
+}
+
+.sectionLinks
+{
+	text-align:left;
+	background-color:white;
+	color:black;
+	font-family:Gotham, Helvetica, Arial;
+	display:grid;
+}
+
+.sectionLinks > h2
+{
+	font-size:4vh;
+	font-weight:normal;
+}
+
+@media only screen and (min-width:1081px)
+{
+	.sectionLinks
+	{
+	grid-template-columns: 20% 70%;
+	}
+}
+
+@media only screen and (min-width:1081px)
+{
+	.sidebar
+	{
+		height:100%;
+		margin-left:0;
+		margin-right:auto;
+	}
+}
+
+
+.sidebar
+{
+	background-color:#A49BD5;
+	margin-left:0;
+	margin-right:auto;
+}
+
+.sidebar > ol > li 
+{
+	font-size:3vh;
+}
+
+.sidebar > ol > li > a
+{
+	font-size:3vh;
+}
+
+@media only screen and (max-width:1080px)
+{
+	.sidebar > ol > li 
+{
+	font-size:3vh;
+}
+
+.sidebar > ol > li > a
+{
+	font-size:3vh;
+}
+}
+
+.sidebar > ol > li > a:hover{
+	color:#55489D;
+}
+
+.articles
+{
+	margin-right:0;
+	margin-left:auto;
+}
+
+.articles > h2
+{
+	text-align:center;
+}
+
+@media only screen and (min-width:1081px)
+{
+	.articles > p
+	{
+		padding-left:2vw;
+	}
+}
+
+#csgo > div > div.sidebar
+{
+	background-color:#B694D2;
+}
+
+#ins > div > div.sidebar
+{
+	background-color:#FFE78B;
+}
+
+#tf2 > div > div.sidebar
+{
+	background-color:#FFAA64;
+}
+
+#guideSplash
+{
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#guideSplash > h1
+{
+	text-align:center;
+	font-size:6vh;
+	text-decoration:none;
+	font-family:Gotham, Helvetica, Arial;
+}
+
+#guideSplash > p
+{
+	text-align:justify;
+	font-size:3vh;
+	text-decoration:none;
+	font-family:Gotham, Helvetica, Arial;
+}
+
+#footer
+{
+ width:100%;
+ background-color:#55489d;
+ height:20vh;
+ display:grid;
+ grid-template-columns:100%;
+ grid-template-rows:33% 33% 33%;
+ justify-content:center;
+}
+
+@media only screen and (min-width:1081px)
+{
+ #footer
+ {
+  display:grid;
+  grid-template-columns:50% 50%;
+  grid-template-rows:100%;
+  justify-content:center;
+  height:10vh;
+ }
+}
+
+#footer > div
+{
+ text-align:center;
+}
+
+
+#footer > div > p > a
+{
+ color:white;
+ font-size:20px;
+ font-family:Gotham, Helvetica, Arial;
+}
+
+#footer > div > p > a:link
+{
+ text-decoration:none;
+}
+
+#footer > div > p > a:visited
+{
+ color:white;
+ text-decoration:none;
+}
+
+#footer > div > p > a:hover
+{
+ color:#FFFA85;
+ text-decoration:none;
+}
+
+#footer > div > p > a:active
+{
+ color:#FFFA85;
+ text-decoration:none;
+}
