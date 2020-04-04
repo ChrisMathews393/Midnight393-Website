@@ -1,6 +1,12 @@
 BEN FIX THIS
 
+Weird line on Index page
 
+white space at the bottom of some pages
+
+remove support us link from footer on support page
+
+fix spacing on footer links
 
 
 
