@@ -1,12 +1,8 @@
 BEN FIX THIS
 
-Weird line on Index page
 
-white space at the bottom of some pages
 
-remove support us link from footer on support page
 
-fix spacing on footer links
 
 
 
@@ -20,3 +16,15 @@ homepage: no footer, just links to other pages. OR put play/support us/guides on
 fix the patreon logo image
 
 Play page (everything)
+
+Weird line on Index page
+
+white space at the bottom of some pages
+
+remove support us link from footer on support page
+
+fix spacing on footer links
+
+Scale text on supportUS
+
+On play page, make "CS:GO" and "Insurgency" text scale. Narrowing the browser window causes it to overflow from the box

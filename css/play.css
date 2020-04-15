@@ -279,6 +279,14 @@ a:visited
 	font-family:Arial, Helvetica, Sans-Serif;
 }
 
+@media only screen and (min-width:1080px) and (max-width:1440px)
+{
+	.gbTitle > h3
+	{
+		font-size:2.25vh;
+	}
+}
+
 .gbLinks
 {
 	margin-top:auto;
