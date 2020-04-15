@@ -12,6 +12,25 @@ background-color:black;
 display:grid;
 }
 
+a:link#redbubbleLink {
+  color: red;
+}
+
+/* visited link */
+a:visited#redbubbleLink {
+  color: green;
+}
+
+/* mouse over link */
+a:hover#redbubbleLink {
+  color: darkred;
+}
+
+/* selected link */
+a:active#redbubbleLink {
+  color: blue;
+}
+
 @media only screen and (max-width:720px)
 {
 	#header
