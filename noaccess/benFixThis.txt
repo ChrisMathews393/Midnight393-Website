@@ -9,6 +9,8 @@ Different message on the 404 page
 
 sort the files, especially images and .psd and .xcf files
 
+figure out why the Twitch frame doesn't seem to actually play any video
+
 
 
 
