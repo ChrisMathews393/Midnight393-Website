@@ -12,23 +12,16 @@ background-color:black;
 display:grid;
 }
 
-a:link#redbubbleLink {
-  color: red;
-}
 
-/* visited link */
-a:visited#redbubbleLink {
-  color: green;
+#content > h2 > a
+{
+  color:#756AB6;
 }
 
 /* mouse over link */
-a:hover#redbubbleLink {
-  color: darkred;
-}
-
-/* selected link */
-a:active#redbubbleLink {
-  color: blue;
+#content > h2 > a:hover
+{
+  color:#3B2E89;
 }
 
 @media only screen and (max-width:720px)
@@ -167,7 +160,7 @@ a:visited
 	}
 }
 
-#donateLink
+.donateLink
 {
 	background-color:#B795D2;
 	text-align:center;
@@ -176,7 +169,7 @@ a:visited
 	margin-bottom:40px;
 }
 
-#donateLink > img
+.donateLink > img
 {
 	text-align:center;
 	margin-top:20px;
@@ -187,7 +180,7 @@ a:visited
 	height:15vh;
 }
 
-#donateLink > p > a
+.donateLink > p > a
 {
 	text-decoration:none;
 	text-align:center;
@@ -200,7 +193,7 @@ a:visited
 
 @media only screen and (min-width:1080px)
 {
-	#donateLink > p > a
+	.donateLink > p > a
 	{
 		font-size:4vh;
 	}
@@ -208,7 +201,7 @@ a:visited
 
 @media only screen and (min-width:720px) and (max-width:1079px)
 {
-	#donateLink > p > a
+	.donateLink > p > a
 	{
 		font-size:3vh;
 	}
@@ -216,25 +209,25 @@ a:visited
 
 @media only screen and (max-width:719px)
 {
-	#donateLink > p > a
+	.donateLink > p > a
 	{
 		font-size:2.5vh;
 	}
 }
 
-#donateLink > p > a:active
+.donateLink > p > a:active
 {
 	text-decoration:none;
 	color:#5D2888;
 }
 
-#donateLink > p > a:hover
+.donateLink > p > a:hover
 {
 	text-decoration:none;
 	color:#5D2888;
 }
 
-#donateLink > p > a:visited
+.donateLink > p > a:visited
 {
 	text-decoration:none;
 }
