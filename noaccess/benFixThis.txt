@@ -7,8 +7,6 @@ Also, in those oxes, maybe shift the a tags to be on the titles instead of the d
 
 Different message on the 404 page
 
-sort the files, especially images and .psd and .xcf files
-
 figure out why the Twitch frame doesn't seem to actually play any video
 
 
@@ -41,6 +39,8 @@ On play page, make "CS:GO" and "Insurgency" text scale. Narrowing the browser wi
 Integrate new logo
 
 Add links to buy merch, including redbubble logo, especially on support page
+
+sort the files, especially images and .psd and .xcf files
 
 
 
