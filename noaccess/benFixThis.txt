@@ -1,8 +1,17 @@
 BEN FIX THIS
 
+404 page
 
+Integrate new logo
 
+Add links to buy merch, including redbubble logo, especially on support page
 
+see if "@media only" nests can be combined to save, like, a million lines of css
+
+clean up the code on the 404 page in the #escape > .linkBox > .linkLinks HTML and CSS. It has been copied over from the play page and therefore uses <ul><li></li></ul>, but since the boxes on this page do not need multiple list items, thye could just be converted to <p>, which would save a few lines of HTML and some CSS as well
+Also, in those oxes, maybe shift the a tags to be on the titles instead of the descriptions.
+
+Different message on the 404 page
 
 
 

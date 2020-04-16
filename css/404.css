@@ -1,0 +1,287 @@
+body
+{
+	background-color:black;
+}
+
+#message
+{
+	float:left;
+	text-align:center;
+}
+
+#message > h3
+{
+	color:white;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	margin-bottom:3vh;
+}
+
+@media only screen and (max-width:1079px)
+{
+	#message > h3
+	{
+		font-size:5vw;
+	}
+}
+
+@media only screen and (min-width:1080px)
+{
+	#message > h3
+	{
+		font-size:3vw;
+	}
+}
+
+#message > h4
+{
+	color:white;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	margin-left:5vw;
+	margin-right:5vw;
+}
+
+@media only screen and (max-width:1079px)
+{
+	#message > h4
+	{
+		font-size:3vw;
+	}
+}
+
+@media only screen and (min-width:1080px)
+{
+	#message > h4
+	{
+		font-size:1.5vw;
+	}
+}
+
+@media only screen and (min-width:1080px)
+{
+	#message
+	{
+		width:40vw;
+		margin-left:10vw;
+	}
+}
+
+@media only screen and (max-width:1079px)
+{
+	#message
+	{
+		width:100%;
+	}
+}
+
+#twixPic
+{
+	float:left;
+}
+
+#twixPic
+{
+	height:auto;
+	width:auto;
+}
+
+@media only screen and (min-width:1080px)
+{
+	#twixPic
+	{
+		width:40vw;
+	}
+}
+
+@media only screen and (min-width:1080px)
+{
+#twixPic > img
+{
+	width:100%;
+	height:auto;
+}
+}
+
+@media only screen and (max-width:1079px)
+{
+	#twixPic
+	{
+		width:100%;
+	}
+}
+
+@media only screen and (max-width:1079px)
+{
+	#twixPic > img
+{
+	width:100%;
+	height:auto;
+}
+}
+
+#escape
+{
+	width:100%;
+	float:left;
+	text-align:center;
+}
+
+.linkBox
+{
+	background-color:#202225;
+	border-style:solid;
+	border-width:3px;
+	border-color:#756AB6;
+	border-radius:3px;
+	float:left;
+	box-sizing:border-box;
+	display:flex;
+	margin-top:2vh;
+	margin-bottom:2vh;
+}
+
+@media only screen and (min-width:1080px)
+{
+	.linkBox
+	{
+		width: 40%;
+		margin-left:2vw;
+		margin-right:2vw;
+	}
+}
+
+@media only screen and (max-width:1079px)
+{
+	.linkBox
+	{
+		width: 100%;
+		flex-wrap: wrap;
+	}
+}
+
+
+.linkTitle
+{
+	background-color:black;
+	text-align:center;
+	padding-top:0;
+	padding-bottom:0;
+	float:left;
+}
+
+@media only screen and (min-width:720px)
+{
+	.linkTitle
+	{
+		width: 25%;
+	}
+}
+
+@media only screen and (max-width:719px)
+{
+	.linkTitle
+	{
+		width: 100%;
+	}
+}
+
+.linkTitle > h3
+{
+	color:white;
+	font-size:3vh;
+	text-align:center;
+	font-family:Arial, Helvetica, Sans-Serif;
+}
+
+@media only screen and (min-width:1080px) and (max-width:1440px)
+{
+	.linkTitle > h3
+	{
+		font-size:2.25vh;
+	}
+}
+
+.linkLinks
+{
+	margin-top:auto;
+	margin-bottom:auto;
+	float:left;
+}
+
+@media only screen and (min-width:720px)
+{
+	.linkLinks
+	{
+		width: 75%;
+	}
+}
+
+@media only screen and (max-width:719px)
+{
+	.linkLinks
+	{
+		width: 100%;
+	}
+}
+
+.linkLinks > ul 
+{
+	list-style-type:none;
+}
+
+.linkLinks > ul > li
+{
+	text-align:left;
+	margin: 0 0 1.5vh 0;
+}
+
+.linkLinks > ul > li > a
+{
+	color:white;
+	font-size:2vh;
+	text-align:left;
+	font-family:Arial, Helvetica, Sans-Serif;
+	text-decoration:none;
+}
+
+.linkLinks > ul > li > a:hover
+{
+	color:#756AB6;
+}
+
+.linkLinks > ul > li > a:active
+{
+	color:#55489D;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
