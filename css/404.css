@@ -163,9 +163,9 @@ body
 {
 	background-color:black;
 	text-align:center;
+	float:left;
 	padding-top:0;
 	padding-bottom:0;
-	float:left;
 }
 
 @media only screen and (min-width:720px)
@@ -184,23 +184,35 @@ body
 	}
 }
 
-.linkTitle > h3
+.linkTitle > a
 {
 	color:white;
 	font-size:3vh;
 	text-align:center;
 	font-family:Arial, Helvetica, Sans-Serif;
+	text-decoration:none;
 }
 
 @media only screen and (min-width:1080px) and (max-width:1440px)
 {
-	.linkTitle > h3
+	.linkTitle > a
 	{
 		font-size:2.25vh;
 	}
 }
 
-.linkLinks
+
+.linkTitle > a:hover
+{
+	color:#756AB6;
+}
+
+.linkTitle > a:active
+{
+	color:#55489D;
+}
+
+.linkCont
 {
 	margin-top:auto;
 	margin-bottom:auto;
@@ -209,7 +221,7 @@ body
 
 @media only screen and (min-width:720px)
 {
-	.linkLinks
+	.linkCont
 	{
 		width: 75%;
 	}
@@ -217,40 +229,29 @@ body
 
 @media only screen and (max-width:719px)
 {
-	.linkLinks
+	.linkCont
 	{
 		width: 100%;
 	}
 }
 
-.linkLinks > ul 
-{
-	list-style-type:none;
-}
-
-.linkLinks > ul > li
+.linkCont > p
 {
 	text-align:left;
-	margin: 0 0 1.5vh 0;
-}
-
-.linkLinks > ul > li > a
-{
+	margin-left:1vw;
+	margin-right:1vw;
 	color:white;
 	font-size:2vh;
 	text-align:left;
 	font-family:Arial, Helvetica, Sans-Serif;
-	text-decoration:none;
 }
 
-.linkLinks > ul > li > a:hover
+@media only screen and (max-width:680px)
 {
-	color:#756AB6;
-}
-
-.linkLinks > ul > li > a:active
-{
-	color:#55489D;
+	.linkCont > p
+	{
+		text-align:center;
+	}
 }
 
 
