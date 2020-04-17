@@ -1,6 +1,10 @@
 BEN FIX THIS
 
-figure out why the Twitch frame doesn't seem to actually play any video in firefox
+add an About Us page
+
+Setup google webmaster tools (will need access to domain provider)
+
+Change the URL names to include keywords (this will also be domain side). URL names: play - "play" guides "how-to-game-server" support us "support-us" about us "about-midnight-monsters"
 
 
 
@@ -42,13 +46,12 @@ Also, in those oxes, maybe shift the a tags to be on the titles instead of the d
 
 Different message on the 404 page
 
+figure out why the Twitch frame doesn't seem to actually play any video in firefox
 
+Change the message on the home page to integrate search keywords, and put it in h1 tags
 
+Add headers with keyword and meta descriptions to the other pages
 
-KINDA NOT REALLY FIXED 
-
-see if "@media only" nests can be combined to save, like, a million lines of css
-(it cna wokr, but it can also mess up the heirarchy of different lines of codes, which will cause stuff to break. It also makes it harder to adjust parameters for individual IDs and classes in the future. So it's probably not worth it
 
 
 
