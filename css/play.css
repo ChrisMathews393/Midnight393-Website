@@ -339,6 +339,47 @@ a:visited
 	color:#55489D;
 }
 
+#carContainer
+{
+	width:60%;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#carContainer > h4
+{
+	color:white;
+	text-align:center;
+	font-family:Arial, Helvetica, Sans-Serif;
+	padding-bottom:3vh;
+}
+
+@media only screen and (max-width:1079px)
+{
+#carContainer
+{
+	width:80%;
+}
+
+}
+
+@media only screen and (max-width:1079px)
+{
+	#carContainer > h4
+	{
+		font-size:5vw;
+	}
+}
+
+@media only screen and (min-width:1080px)
+{
+	#carContainer > h4
+	{
+		font-size:3vw;
+	}
+}
+
 #footer
 {
  width:100%;
