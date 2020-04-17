@@ -1,7 +1,7 @@
-@charset "utf-8";
 body
 {
 	margin:0 0 0 0;
+	background-color:black;
 }
 
 #header
@@ -10,18 +10,6 @@ width: 100%;
 height: 16vw;
 background-color:black;
 display:grid;
-}
-
-
-#content > h2 > a
-{
-  color:#756AB6;
-}
-
-/* mouse over link */
-#content > h2 > a:hover
-{
-  color:#3B2E89;
 }
 
 @media only screen and (max-width:720px)
@@ -122,119 +110,197 @@ a:visited
 	color:black;
 }
 
-#content
+#main
 {
-	width:80%;
-	margin-left:auto;
-	margin-right:auto;
-	color:black;
+	text-align:center;
+	background-color:black;
+}
+
+@media only screen and (max-width:1079px)
+{
+	#main
+	{
+		width:90%;
+		margin-left:5%;
+		margin-right:5%;
+	}
+}
+
+@media only screen and (min-width:1080px)
+{
+	#main
+	{
+		width:80%;
+		margin-left:auto;
+		margin-right:auto;
+	}
+}
+
+#main > h1
+{
+	text-align:center;
+	color:white;
     font-family:Gotham, Helvetica, Arial;
+	font-size:4vw;
 }
 
-#content > h2
+@media only screen and (max-width:1079px)
 {
-	font-weight:normal;
-}
-
-@media only screen and (min-width:1080px)
-{
-	#content > h2
+	#main > h1
 	{
-		font-size:3vh;
+		font-size:7vw;
 	}
 }
 
-@media only screen and (min-width:720px) and (max-width:1079px)
+#main > h2
 {
-	#content > h2
+	text-align:left;
+	color:white;
+    font-family:Gotham, Helvetica, Arial;
+	font-size:3vw;
+}
+
+@media only screen and (max-width:1079px)
+{
+	#main > h2
 	{
-		font-size:2.5vh;
+		font-size:5vw;
 	}
 }
 
-@media only screen and (max-width:719px)
+#main > p 
 {
-	#content > h2
+	text-align:left;
+	color:white;
+    font-family:Gotham, Helvetica, Arial;
+	font-size:2vw;
+}
+
+@media only screen and (max-width:1079px)
+{
+	#main > p
 	{
-		font-size:2vh;
+		font-size:4vw;
 	}
 }
 
-.donateLink
+#main > p > a
 {
-	background-color:#B795D2;
-	text-align:center;
-	width:100%;
-	padding-bottom:20px;
-	margin-bottom:40px;
-}
-
-.donateLink > img
-{
-	text-align:center;
-	margin-top:20px;
-	margin-bottom:20px;
-	margin-left:auto;
-	margin-right:auto;
-	width:15vh;
-	height:15vh;
-}
-
-.donateLink > p > a
-{
-	text-decoration:none;
-	text-align:center;
-	color:black;
-	margin-top:20px;
-	margin-bottom:20px;
-	margin-left:auto;
-	margin-right:auto;
-}
-
-@media only screen and (min-width:1080px)
-{
-	.donateLink > p > a
-	{
-		font-size:4vh;
-	}
-}
-
-@media only screen and (min-width:720px) and (max-width:1079px)
-{
-	.donateLink > p > a
-	{
-		font-size:3vh;
-	}
-}
-
-@media only screen and (max-width:719px)
-{
-	.donateLink > p > a
-	{
-		font-size:2.5vh;
-	}
-}
-
-.donateLink > p > a:active
-{
-	text-decoration:none;
-	color:#5D2888;
-}
-
-.donateLink > p > a:hover
-{
-	text-decoration:none;
-	color:#5D2888;
-}
-
-.donateLink > p > a:visited
-{
-	text-decoration:none;
+	text-decoration:underline;
+	color:white;
 }
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#quickLinks
+{
+ width:80%;
+ text-align:center;
+ margin-left:auto;
+ margin-right:auto;
+}
+
+@media only screen and (min-width:721px) and (max-width:1080px)
+{
+ #quickLinks
+ {
+  width:85%;
+  text-align:center;
+  margin-left:auto;
+  margin-right:auto;
+ }
+}
+
+@media only screen and (min-width:1081px)
+{
+ #quickLinks
+ {
+  width:90%;
+  text-align:center;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:2vh;
+ }
+}
+
+#qlGrid
+{
+ display:grid;
+ grid-template-columns:50% 50%;
+ justify-content:center;
+ grid-template-rows:auto auto auto;
+ text-align:center;
+}
+
+@media only screen and (min-width:721px) and (max-width:1080px)
+{
+ #qlGrid
+ {
+  display:grid;
+  grid-template-columns:33% 33% 33%;
+  grid-template-rows:auto auto;
+  justify-content:center;
+  text-align:center;
+ }
+}
+
+@media only screen and (min-width:1081px)
+{
+ #qlGrid
+ {
+  display:grid;
+  grid-template-columns:16.66% 16.66% 16.66% 16.66% 16.66% 16.66%;
+  grid-template-rows:auto;
+  justify-content:center;
+ }
+}
+
+.qlLogo
+{
+ width:50%;
+ margin-left:auto;
+ margin-right:auto;
+ margin-bottom:10vh;
+}
 
 #footer
 {
@@ -243,7 +309,7 @@ a:visited
  height:20vh;
  display:grid;
  grid-template-columns:100%;
- grid-template-rows:50% 50%;
+ grid-template-rows:33% 33% 33%;
  justify-content:center;
 }
 
@@ -252,7 +318,7 @@ a:visited
  #footer
  {
   display:grid;
-  grid-template-columns:50% 50%;
+  grid-template-columns:33% 33% 33%;
   grid-template-rows:100%;
   justify-content:center;
   height:10vh;
@@ -294,5 +360,3 @@ a:visited
  color:#FFFA85;
  text-decoration:none;
 }
-
-
