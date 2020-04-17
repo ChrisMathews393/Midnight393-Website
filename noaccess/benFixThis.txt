@@ -2,11 +2,9 @@ BEN FIX THIS
 
 add an About Us page
 
-Setup google webmaster tools (will need access to domain provider)
-
 Change the URL names to include keywords (this will also be domain side). URL names: play - "play" guides "how-to-game-server" support us "support-us" about us "about-midnight-monsters"
 
-
+Add screenshots and GIFs and stuff to the play page, maybe in a bootstrap slideshow
 
 
 
@@ -51,6 +49,8 @@ figure out why the Twitch frame doesn't seem to actually play any video in firef
 Change the message on the home page to integrate search keywords, and put it in h1 tags
 
 Add headers with keyword and meta descriptions to the other pages
+
+Chris - Setup google webmaster tools (will need access to domain provider)
 
 
 
