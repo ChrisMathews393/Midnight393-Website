@@ -6411,6 +6411,7 @@ a.close.disabled {
   position: relative;
   width: 100%;
   overflow: hidden;
+  
 }
 
 .carousel-inner::after {
@@ -6430,6 +6431,12 @@ a.close.disabled {
   transition: -webkit-transform 0.6s ease-in-out;
   transition: transform 0.6s ease-in-out;
   transition: transform 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out;
+  height:60vw;
+}
+
+.carousel-item > img
+{
+	height:30vw;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -6442,6 +6449,43 @@ a.close.disabled {
 .carousel-item-next,
 .carousel-item-prev {
   display: block;
+  height:30vw;
+}
+
+@media only screen and (max-width:1900px) and (min-width:1080px)
+{
+	.carousel-item 
+	{
+		height:45vw;
+	}
+	.carousel-item > img
+{
+	height:45vw;
+}
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev
+{
+	height:45vw;
+}
+}
+
+@media only screen and (max-width:1079px)
+{
+	.carousel-item 
+	{
+		height:50vw;
+	}
+	.carousel-item > img
+{
+	height:50vw;
+}
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev
+{
+	height:50vw;
+}
 }
 
 .carousel-item-next:not(.carousel-item-left),

@@ -2,7 +2,7 @@ BEN FIX THIS
 
 Change the URL names to include keywords (this will also be domain side). URL names: play - "play" guides "how-to-game-server" support us "support-us" about us "about-midnight-monsters"
 
-Add screenshots and GIFs and stuff to the play page, maybe in a bootstrap slideshow
+Add <html lang="en"> to every page on the master branch
 
 
 
@@ -51,6 +51,12 @@ Add headers with keyword and meta descriptions to the other pages
 Chris - Setup google webmaster tools (will need access to domain provider)
 
 add an About Us page
+
+Add screenshots and GIFs and stuff to the play page, maybe in a bootstrap slideshow
+
+
+
+
 
 
 
