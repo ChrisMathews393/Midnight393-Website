@@ -48,20 +48,18 @@
 					 <div id="twitch-embed"></div>
 					<!--example URL for a specific video https://player.twitch.tv/?volume=0&muted&video=v593372272 -->
 						
-							<!-- Load the Twitch embed script -->
-							<script src="https://embed.twitch.tv/embed/v1.js"></script>
-
-							<!-- Create a Twitch.Embed object that will render within the "twitch-embed" root element. -->
-							<script type="text/javascript">
-							  new Twitch.Embed("twitch-embed", {
-								width: 854,
-								height: 480,
-								channel: "midnight393",
-								// only needed if your site is also embedded on embed.example.com and othersite.example.com 
-								parent: ["midnightmonsters.net", "www.midnightmonsters.net"]
-							  });
-							</script>
-					</div> <!-- twitch div close -->
+							<script src= "https://player.twitch.tv/js/embed/v1.js"></script>
+								<script type="text/javascript">
+								  var options = {
+									width: 600,
+									height: 350,
+									channel: "midnight393",
+									// only needed if your site is also embedded on embed.example.com and othersite.example.com 
+									};
+								  var player = new Twitch.Player("twitch-embed", options);
+								  player.setVolume(0.5);
+								</script>
+					<!-- twitch div close -->
 			</div> <!-- Discord Header Close -->
 		  <!-- <div class="invite">
 		   <iframe src="https://discordapp.com/widget?id=486635181088964629&theme=dark" width="100%" height="100%" allowtransparency="true" frameborder="0"></iframe>
