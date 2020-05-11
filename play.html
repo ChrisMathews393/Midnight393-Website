@@ -42,19 +42,25 @@
 				  <br>
 				  <br>
 				  <br>
-				  <h2>Play on our free dedicated servers and jump the community!</h2>
+				  <h2>Play on our free dedicated servers and jump in the community!</h2>
 				  <h2><a href="https://discordapp.com/invite/rzmVadp" target="_blank">Midnight Monsters Discord</a></h2>
 			  </div>
-					<div class="invite">
+					 <div id="twitch-embed"></div>
 					<!--example URL for a specific video https://player.twitch.tv/?volume=0&muted&video=v593372272 -->
-						<iframe
-							src="https://player.twitch.tv/?video=v593372272&parent=www.midnightmonsters.net&muted=true"
-							height="100%"
-							width="100%"
-							frameborder="2"
-							scrolling="no"
-							allowfullscreen="true">
-						</iframe>
+						
+							<!-- Load the Twitch embed script -->
+							<script src="https://embed.twitch.tv/embed/v1.js"></script>
+
+							<!-- Create a Twitch.Embed object that will render within the "twitch-embed" root element. -->
+							<script type="text/javascript">
+							  new Twitch.Embed("twitch-embed", {
+								width: 854,
+								height: 480,
+								channel: "midnight393",
+								// only needed if your site is also embedded on embed.example.com and othersite.example.com 
+								parent: ["midnightmonsters.net", "www.midnightmonsters.net"]
+							  });
+							</script>
 					</div> <!-- twitch div close -->
 			</div> <!-- Discord Header Close -->
 		  <!-- <div class="invite">
