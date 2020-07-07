@@ -1,7 +1,5 @@
 ErrorDocument 404 /404
 
-RewriteEngine On
+RewriteEngine On 
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^([^\.]+)$ $1.html [NC,L]
-
-Redirect permanent /secure https://www.midnightmonsters.net/secure
+RewriteRule ^([^\.]$ $1.html [NC,L]
