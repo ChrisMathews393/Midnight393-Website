@@ -24,6 +24,15 @@ body
  text-align:center;
 }
 
+
+@font-face {
+    font-family: 'omegaforce_bulletregular';
+    src: url('https://midnightmonsters.net/css/fonts/omegaforcebulletregular-ezy6-webfont.woff2') format('woff2'),
+         url('https://midnightmonsters.net/css/fonts/omegaforcebulletregular-ezy6-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 #headText > h1
 {
  display:inline-block;
@@ -193,7 +202,7 @@ text-align:center;
 .headerLink > a > h2
 {
 	color:white;
-    font-family:Gotham, Helvetica, Arial;
+    font-family:omegaforce_bulletregular;
 	font-size:4vw;
 }
 
@@ -202,7 +211,7 @@ text-align:center;
 	.headerLink > a > h2
 {
 	color:white;
-    font-family:Gotham, Helvetica, Arial;
+    font-family:omegaforce_bulletregular;
 	font-size:5vw;
 }
 	
