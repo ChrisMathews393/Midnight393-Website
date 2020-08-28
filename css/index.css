@@ -27,7 +27,7 @@ body
 #headText > h1
 {
  display:inline-block;
- font-family:Gotham, Helvetica, Arial;
+ font-family:lane_-_narrowregular;
  font-size:4vw;
  text-align:center;
  color: white;
@@ -708,4 +708,12 @@ a:visited
 }
 
 
+@font-face {
+    font-family: 'lane_-_narrowregular';
+    src: url('https://midnightmonsters.net/css/fonts/lanenar-webfont.woff2') format('woff2'),
+         url('https://midnightmonsters.net/css/fonts/lanenar-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
