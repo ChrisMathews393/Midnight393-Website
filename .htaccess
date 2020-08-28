@@ -3,4 +3,3 @@ ErrorDocument 404 /404
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.html [NC,L]
-
