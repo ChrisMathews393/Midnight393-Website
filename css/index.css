@@ -434,6 +434,7 @@ a:visited
 
 /* ------------------------------------Fonts------------------------------------- */
 
+/*
 @font-face {
     font-family: 'https://midnightmonsters.net/css/fonts/omegaforce_3d_italicitalic';
     src: url('https://midnightmonsters.net/css/fonts/omegaforce3ditalic-0err-webfont.woff2') format('woff2'),
@@ -671,7 +672,7 @@ a:visited
 }
 
 
-
+*/
 
 @font-face {
     font-family: 'https://midnightmonsters.net/css/fonts/omegaforceregular';
@@ -682,7 +683,7 @@ a:visited
 
 }
 
-
+/*
 
 
 @font-face {
@@ -708,5 +709,5 @@ a:visited
 
 
 
-
+*/
 
