@@ -24,6 +24,8 @@ body
  text-align:center;
 }
 
+
+
 #headText > h1
 {
  display:inline-block;
@@ -193,7 +195,7 @@ text-align:center;
 .headerLink > a > h2
 {
 	color:white;
-    font-family:omegaforceregular;
+    font-family:omegaforce_bulletregular;
 	font-size:4vw;
 }
 
@@ -202,7 +204,7 @@ text-align:center;
 	.headerLink > a > h2
 {
 	color:white;
-    font-family:omegaforceregular;
+    font-family:omegaforce_bulletregular;
 	font-size:5vw;
 }
 	
@@ -433,7 +435,6 @@ a:visited
 
 
 /* ------------------------------------Fonts------------------------------------- */
-
 
 @font-face {
     font-family: 'https://midnightmonsters.net/css/fonts/omegaforce_3d_italicitalic';
@@ -670,6 +671,7 @@ a:visited
     font-style: normal;
 
 }
+
 
 
 
