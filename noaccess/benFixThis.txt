@@ -4,6 +4,10 @@ Change the URL names to include keywords (this will also be domain side). URL na
 
 
 
+
+
+
+
 FIXED THIS
 
 On super skinny, there is a big gap between the "play" and "guides" links
@@ -53,12 +57,8 @@ Add screenshots and GIFs and stuff to the play page, maybe in a bootstrap slides
 
 Add <html lang="en"> to every page
 
+Make the background of the whole support page black
 
+The color on the carousel captions on the support page
 
-
-
-
-
-
-
-
+Add links to the carousel on the support page

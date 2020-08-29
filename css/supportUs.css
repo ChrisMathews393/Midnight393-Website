@@ -13,6 +13,7 @@ display:grid;
 }
 
 
+
 #content > h2 > a
 {
   color:#756AB6;
@@ -94,7 +95,7 @@ display:grid;
     font-family:omegaforce_outlineregular;
 	font-size:5vw;
 }
-	
+
 }
 
 a:link
@@ -123,13 +124,20 @@ a:visited
 	color:black;
 }
 
+#contentContainer
+{
+	width:100%;
+	background-color:black;
+}
+
 #content
 {
 	width:80%;
 	margin-left:auto;
 	margin-right:auto;
-	color:black;
+	color:white;
     font-family:Gotham, Helvetica, Arial;
+		background-color:black;
 }
 
 #content > h2
@@ -167,7 +175,8 @@ a:visited
 	text-align:center;
 	width:100%;
 	padding-bottom:20px;
-	margin-bottom:40px;
+	margin-top:20px;
+	margin-bottom:20px;
 }
 
 .donateLink > img
@@ -233,8 +242,79 @@ a:visited
 	text-decoration:none;
 }
 
+#carContainer
+{
+	width:60%;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10vh;
+}
 
+#carContainer > h4
+{
+	color:white;
+	text-align:center;
+	font-family:Arial, Helvetica, Sans-Serif;
+	padding-bottom:3vh;
+}
 
+@media only screen and (max-width:1079px)
+{
+#carContainer
+{
+	width:80%;
+}
+
+}
+
+@media only screen and (max-width:1079px)
+{
+	#carContainer > h4
+	{
+		font-size:5vw;
+	}
+}
+
+@media only screen and (min-width:1080px)
+{
+	#carContainer > h4
+	{
+		font-size:3vw;
+	}
+}
+
+.carousel-caption
+{
+	background: rgba(0, 0, 0, 0.75);
+}
+
+.carousel-caption > a > h5
+{
+	color:white;
+	text-decoration:none;
+}
+
+.carousel-caption > a > p
+{
+	color:white;
+	text-decoration:none;
+}
+
+.carousel-caption > a:hover
+{
+	text-decoration:none;
+}
+
+.carousel-caption > a:active
+{
+	text-decoration:none;
+}
+
+.carousel-caption > a:visited
+{
+	text-decoration:none;
+}
 
 
 #footer
@@ -579,4 +659,3 @@ a:visited
     font-style: normal;
 
 }
-

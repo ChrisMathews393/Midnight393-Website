@@ -9,6 +9,7 @@
 <meta name="keywords" content="free, community, dedicated, game, servers, discord, twitch, live, streams, csgo, insurgency, steam">
 <meta name="author" content="Ben is the best at CS:GO">
 <link rel="stylesheet" type="text/css" href="./css/supportUs.css">
+<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
 <link rel="icon" href="./images/favicon.png">
 </head>
 	<body>
@@ -28,15 +29,103 @@
 			<div class="headerLink">
 				<a href="supportUs"><h1>Support Us</h1></a>
 			</div>
-			
+
 			<div class="headerLink">
 					<a href="about"><h1>About Us</h1></a>
 				</div>
 		</div>
-
+		<div id="contentContainer">
 		<div id="content">
 			<h2>Thank you for visiting Midnight Monsters. If you've been enjoying our guides, servers, and streams, then you'll love our <a href="https://www.patreon.com/Midnight393/posts">patron-only content</a>, including live cams and hot one-deags in your area. If you want to represent us, please <a href="https://www.redbubble.com/people/Midnight393/shop">check out our Redbubble store</a> or our <a href="https://merch.streamelements.com/midnight393"> Streamelements store</a> and get some merch!</h2>
 			<h2>If you're not into the whole giving-an-internet-stranger-your-money thing, feel free to continue browsing our site and playing along with us, secure in the knowledge that our lovely patrons are trudging through a nigthmarish existence at their 9-to-5 just to put a little bread on your freeloading-ass table. Continue to leech off their generosity like the worthless black hole you are, spinning endlessly through the cosmos that is the internet while you suck away at the very lifeblood of our society. You know that nagging feeling that your very presence is a burden to everyone around you? That's how our patrons feel about you. In fact, that's how everyone feels about you. Anyway thanks for visiting our site!</h2>
+
+
+
+
+
+			<!--bootstrap carousel-->
+
+				<div id="carContainer">
+
+				<h4>Just feast your eyes on THIS</h4>
+
+
+
+
+
+
+
+				<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+	  <ol class="carousel-indicators">
+	    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+	    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+		<li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+		<li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+	  </ol>
+	  <div class="carousel-inner">
+	    <div class="carousel-item active">
+	      <img src="./images/merch/hoodie.png">
+	      <div class="carousel-caption d-none d-md-block">
+	        <a href="https://merch.streamelements.com/midnight393/products/hoodie-with-logo-2"><h5>Hoodie</h5></a>
+	        <a href="https://merch.streamelements.com/midnight393/products/hoodie-with-logo-2"><p>from StreamElements</p></a>
+	      </div>
+	    </div>
+	    <div class="carousel-item">
+	      <img src="./images/merch/mug.png">
+	      <div class="carousel-caption d-none d-md-block">
+					<a href="https://merch.streamelements.com/midnight393/products/penta-mug"><h5>Mug</h5></a>
+	        <a href="https://merch.streamelements.com/midnight393/products/penta-mug"><p>from StreamElements</p></a>
+	      </div>
+	    </div>
+		<div class="carousel-item">
+	      <img src="./images/merch/mousepad.png">
+	      <div class="carousel-caption d-none d-md-block">
+					<a href="https://merch.streamelements.com/midnight393/products/penta-mousepad"><h5>Mousepad</h5></a>
+	        <a href="https://merch.streamelements.com/midnight393/products/penta-mousepad"><p>from StreamElements</p></a>
+	      </div>
+	    </div>
+			<div class="carousel-item">
+		      <img src="./images/merch/scarf.jpg">
+		      <div class="carousel-caption d-none d-md-block">
+						<a href="https://www.redbubble.com/i/scarf/Midnight-Monsters-Logo-by-Midnight393/46871243.B15PI"><h5>Sexy gamer scarf</h5></a>
+		        <a href="https://www.redbubble.com/i/scarf/Midnight-Monsters-Logo-by-Midnight393/46871243.B15PI"><p>from Redbubble</p></a>
+		      </div>
+		    </div>
+	  </div>
+	  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+	    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+	    <span class="sr-only">Previous</span>
+	  </a>
+	  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+	    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+	    <span class="sr-only">Next</span>
+	  </a>
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				</div>
+
+				<!--end bootstrap carousel-->
+
+
+
+
+
+
 			<div class="donateLink">
 			  <img draggable="false" src="./images/logos/patreon.png" alt="Patreon logo">
 			  <p><a target="_blank" href="https://www.patreon.com/Midnight393/posts">Click here to become a patron and get free tickets to our live show</a></p>
@@ -45,12 +134,18 @@
 			  <img draggable="false" src="./images/logos/redbubble.png" alt="Redbubble logo">
 			  <p><a target="_blank" href="https://www.redbubble.com/people/Midnight393/shop">Click here to become the owner of sweet shower curtain</a></p>
 			</div>
-		</div>
+		</div>\
+	</div>
+
+
 
 		<div id="footer">
 		   <div><p><a href="#top">Top</a></p></div>
 		   <div><p><a href="mailto:midnightmonster393@gmail.com">Contact us: midnightmonster393@gmail.com</a></p></div>
 		</div>
+
+		<script src="./js/jquery-3.5.0.min.js"></script>
+  <script src="./js/bootstrap.bundle.js"></script>
 
 	</body>
 </html>
