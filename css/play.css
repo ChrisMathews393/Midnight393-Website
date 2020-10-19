@@ -199,7 +199,7 @@ a:visited
 
 .invite > h2 > a
 {
-	font-family: "Lucida Console", Monaco, monospace;
+	font-family: "omegaforce_3dregular", Monaco, monospace;
     color: white;
 }
 
@@ -212,6 +212,7 @@ a:visited
 {
 	color:#55489D;
 }
+
 
 /*
 Added in CSS for twitch embed, if this comment is still here, it worked
