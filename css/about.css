@@ -192,34 +192,42 @@ a:visited
 	text-align:center;
 	color:white;
     font-family:Gotham, Helvetica, Arial;
-	font-size:4vw;
+	font-size:3.5vw;
+}
+
+#main > h1
+{
+	padding-top: 2vh;
+	padding-bottom: 2vh;
+}
+
+#main > h2
+{
+	padding-top: 3vh;
+	padding-bottom: 1vh;
+}
+
+#main > p
+{
+	padding-top: 0vh;
+	padding-bottom: 2vh;
+}
+
+#main > h1
+{
+	padding-top: 2vh;
+	padding-bottom: 2vh;
 }
 
 @media only screen and (max-width:1079px)
 {
 	#main > h1
 	{
-		font-size:7vw;
+		font-size:5.5vw;
 	}
 }
 
 #main > h2
-{
-	text-align:left;
-	color:white;
-    font-family:Gotham, Helvetica, Arial;
-	font-size:3vw;
-}
-
-@media only screen and (max-width:1079px)
-{
-	#main > h2
-	{
-		font-size:5vw;
-	}
-}
-
-#main > p 
 {
 	text-align:left;
 	color:white;
@@ -229,58 +237,38 @@ a:visited
 
 @media only screen and (max-width:1079px)
 {
-	#main > p
+	#main > h2
 	{
 		font-size:4vw;
 	}
 }
 
-#main > p > a
+#main > p 
 {
-	text-decoration:underline;
+	text-align:left;
 	color:white;
+    font-family:Gotham, Helvetica, Arial;
+	font-size:1.5vw;
 }
 
+@media only screen and (max-width:1079px)
+{
+	#main > p
+	{
+		font-size:3vw;
+	}
+}
 
+#main > p > a
+{
+	text-decoration:none;
+	color:#756AB6;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#main > p > a:hover
+{
+	color:#3B2E89;
+}
 
 #quickLinks
 {
@@ -351,65 +339,6 @@ a:visited
  margin-left:auto;
  margin-right:auto;
  margin-bottom:10vh;
-}
-
-#footer
-{
- width:100%;
- background-color:#55489d;
- height:20vh;
- display:grid;
- grid-template-columns:100%;
- grid-template-rows:33% 33% 33%;
- justify-content:center;
-}
-
-@media only screen and (min-width:1081px)
-{
- #footer
- {
-  display:grid;
-  grid-template-columns:33% 33% 33%;
-  grid-template-rows:100%;
-  justify-content:center;
-  height:10vh;
- }
-}
-
-#footer > div
-{
- text-align:center;
-}
-
-
-#footer > div > p > a
-{
- color:white;
- font-size:20px;
- font-family:Gotham, Helvetica, Arial;
-}
-
-#footer > div > p > a:link
-{
- text-decoration:none;
-}
-
-#footer > div > p > a:visited
-{
- color:white;
- text-decoration:none;
-}
-
-#footer > div > p > a:hover
-{
- color:#FFFA85;
- text-decoration:none;
-}
-
-#footer > div > p > a:active
-{
- color:#FFFA85;
- text-decoration:none;
 }
 
 /* ------------------------------------Fonts------------------------------------- */

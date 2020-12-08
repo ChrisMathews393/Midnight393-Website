@@ -1,0 +1,108 @@
+@charset "utf-8";
+
+/* MEYERWEB CSS RESET */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* END MEYERWEB CSS RESET */
+
+#footer
+{
+ width:100%;
+ background-color:#55489d;
+ height:20vh;
+ display:grid;
+ grid-template-columns:100%;
+ grid-template-rows:33% 33% 33%;
+ justify-content:center;
+}
+
+@media only screen and (min-width:1081px)
+{
+ #footer
+ {
+  display:grid;
+  grid-template-columns:33% 33% 33%;
+  grid-template-rows:100%;
+  justify-content:center;
+  height:10vh;
+ }
+}
+
+#footer > div
+{
+ text-align:center;
+}
+
+
+#footer > div > p > a
+{
+ color:white;
+ font-size:20px;
+ font-family:Gotham, Helvetica, Arial;
+}
+
+#footer > div > p > a:link
+{
+ text-decoration:none;
+}
+
+#footer > div > p > a:visited
+{
+ color:white;
+ text-decoration:none;
+}
+
+#footer > div > p > a:hover
+{
+ color:#FFFA85;
+ text-decoration:none;
+}
+
+#footer > div > p > a:active
+{
+ color:#FFFA85;
+ text-decoration:none;
+}

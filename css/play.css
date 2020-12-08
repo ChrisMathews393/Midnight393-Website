@@ -478,65 +478,6 @@ Added in CSS for twitch embed, if this comment is still here, it worked
 	color:#55489D;
 }
 
-#footer
-{
- width:100%;
- background-color:#55489d;
- height:20vh;
- display:grid;
- grid-template-columns:100%;
- grid-template-rows:33% 33% 33%;
- justify-intro:center;
-}
-
-@media only screen and (min-width:1081px)
-{
- #footer
- {
-  display:grid;
-  grid-template-columns:50% 50%;
-  grid-template-rows:100%;
-  justify-intro:center;
-  height:10vh;
- }
-}
-
-#footer > div
-{
- text-align:center;
-}
-
-
-#footer > div > p > a
-{
- color:white;
- font-size:20px;
- font-family:Gotham, Helvetica, Arial;
-}
-
-#footer > div > p > a:link
-{
- text-decoration:none;
-}
-
-#footer > div > p > a:visited
-{
- color:white;
- text-decoration:none;
-}
-
-#footer > div > p > a:hover
-{
- color:#FFFA85;
- text-decoration:none;
-}
-
-#footer > div > p > a:active
-{
- color:#FFFA85;
- text-decoration:none;
-}
-
 /* ------------------------------------Fonts------------------------------------- */
 
 @font-face {
