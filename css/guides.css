@@ -351,8 +351,8 @@ a:visited
 
 @font-face {
     font-family: 'omegaforce_3d_italicitalic';
-    src: url('https://www.midnightmonsters.net/css/fonts/omegaforce3ditalic-0err-webfont.woff2') format('woff2'),
-         url('https://www.midnightmonsters.net/css/fonts/omegaforce3ditalic-0err-webfont.woff') format('woff');
+    src: url('./css/fonts/omegaforce3ditalic-0err-webfont.woff2') format('woff2'),
+         url('./css/fonts/omegaforce3ditalic-0err-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -363,8 +363,8 @@ a:visited
 
 @font-face {
     font-family: 'omegaforce_3dregular';
-    src: url('https://www.midnightmonsters.net/css/fonts/omegaforce3dregular-4ovx-webfont.woff2') format('woff2'),
-         url('https://www.midnightmonsters.net/css/fonts/omegaforce3dregular-4ovx-webfont.woff') format('woff');
+    src: url('./css/fonts/omegaforce3dregular-4ovx-webfont.woff2') format('woff2'),
+         url('./css/fonts/omegaforce3dregular-4ovx-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -375,8 +375,8 @@ a:visited
 
 @font-face {
     font-family: 'omegaforce_bullet_italicIt';
-    src: url('https://www.midnightmonsters.net/css/fonts/omegaforcebulletitalic-weae-webfont.woff2') format('woff2'),
-         url('https://www.midnightmonsters.net/css/fonts/omegaforcebulletitalic-weae-webfont.woff') format('woff');
+    src: url('./css/fonts/omegaforcebulletitalic-weae-webfont.woff2') format('woff2'),
+         url('./css/fonts/omegaforcebulletitalic-weae-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -387,8 +387,8 @@ a:visited
 
 @font-face {
     font-family: 'omegaforce_bulletregular';
-    src: url('https://www.midnightmonsters.net/css/fonts/omegaforcebulletregular-ezy6-webfont.woff2') format('woff2'),
-         url('https://www.midnightmonsters.net/css/fonts/omegaforcebulletregular-ezy6-webfont.woff') format('woff');
+    src: url('./css/fonts/omegaforcebulletregular-ezy6-webfont.woff2') format('woff2'),
+         url('./css/fonts/omegaforcebulletregular-ezy6-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -399,8 +399,8 @@ a:visited
 
 @font-face {
     font-family: 'omegaforce_condensedcondensed';
-    src: url('https://www.midnightmonsters.net/css/fonts/omegaforcecondensed-az1r-webfont.woff2') format('woff2'),
-         url('https://www.midnightmonsters.net/css/fonts/omegaforcecondensed-az1r-webfont.woff') format('woff');
+    src: url('./css/fonts/omegaforcecondensed-az1r-webfont.woff2') format('woff2'),
+         url('./css/fonts/omegaforcecondensed-az1r-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -411,8 +411,8 @@ a:visited
 
 @font-face {
     font-family: 'omegaforce_condensed_italCnIt';
-    src: url('https://www.midnightmonsters.net/css/fonts/omegaforcecondenseditalic-emen-webfont.woff2') format('woff2'),
-         url('https://www.midnightmonsters.net/css/fonts/omegaforcecondenseditalic-emen-webfont.woff') format('woff');
+    src: url('./css/fonts/omegaforcecondenseditalic-emen-webfont.woff2') format('woff2'),
+         url('./css/fonts/omegaforcecondenseditalic-emen-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -423,8 +423,8 @@ a:visited
 
 @font-face {
     font-family: 'omegaforce_expandedexpandedIt';
-    src: url('https://www.midnightmonsters.net/css/fonts/omegaforceexpandeditalic-z3am-webfont.woff2') format('woff2'),
-         url('https://www.midnightmonsters.net/css/fonts/omegaforceexpandeditalic-z3am-webfont.woff') format('woff');
+    src: url('./css/fonts/omegaforceexpandeditalic-z3am-webfont.woff2') format('woff2'),
+         url('./css/fonts/omegaforceexpandeditalic-z3am-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -435,8 +435,8 @@ a:visited
 
 @font-face {
     font-family: 'omegaforce_expandedexpanded';
-    src: url('https://www.midnightmonsters.net/css/fonts/omegaforceexpanded-ox94-webfont.woff2') format('woff2'),
-         url('https://www.midnightmonsters.net/css/fonts/omegaforceexpanded-ox94-webfont.woff') format('woff');
+    src: url('./css/fonts/omegaforceexpanded-ox94-webfont.woff2') format('woff2'),
+         url('./css/fonts/omegaforceexpanded-ox94-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -447,8 +447,8 @@ a:visited
 
 @font-face {
     font-family: 'omegaforce_gradient_italicIt';
-    src: url('https://www.midnightmonsters.net/css/fonts/omegaforcegradientitalic-xzqk-webfont.woff2') format('woff2'),
-         url('https://www.midnightmonsters.net/css/fonts/omegaforcegradientitalic-xzqk-webfont.woff') format('woff');
+    src: url('./css/fonts/omegaforcegradientitalic-xzqk-webfont.woff2') format('woff2'),
+         url('./css/fonts/omegaforcegradientitalic-xzqk-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -459,8 +459,8 @@ a:visited
 
 @font-face {
     font-family: 'omegaforce_gradientregular';
-    src: url('https://www.midnightmonsters.net/css/fonts/omegaforcegradientregular-3e2l-webfont.woff2') format('woff2'),
-         url('https://www.midnightmonsters.net/css/fonts/omegaforcegradientregular-3e2l-webfont.woff') format('woff');
+    src: url('./css/fonts/omegaforcegradientregular-3e2l-webfont.woff2') format('woff2'),
+         url('./css/fonts/omegaforcegradientregular-3e2l-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -471,8 +471,8 @@ a:visited
 
 @font-face {
     font-family: 'omegaforce_halftone_3d_italIt';
-    src: url('https://www.midnightmonsters.net/css/fonts/omegaforcehalftone3ditalic-ab1l-webfont.woff2') format('woff2'),
-         url('https://www.midnightmonsters.net/css/fonts/omegaforcehalftone3ditalic-ab1l-webfont.woff') format('woff');
+    src: url('./css/fonts/omegaforcehalftone3ditalic-ab1l-webfont.woff2') format('woff2'),
+         url('./css/fonts/omegaforcehalftone3ditalic-ab1l-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -483,8 +483,8 @@ a:visited
 
 @font-face {
     font-family: 'omegaforce_halftone_3dregular';
-    src: url('https://www.midnightmonsters.net/css/fonts/omegaforcehalftone3dregular-d98w-webfont.woff2') format('woff2'),
-         url('https://www.midnightmonsters.net/css/fonts/omegaforcehalftone3dregular-d98w-webfont.woff') format('woff');
+    src: url('./css/fonts/omegaforcehalftone3dregular-d98w-webfont.woff2') format('woff2'),
+         url('./css/fonts/omegaforcehalftone3dregular-d98w-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -494,8 +494,8 @@ a:visited
 
 @font-face {
     font-family: 'omegaforce_halftone_italicIt';
-    src: url('https://www.midnightmonsters.net/css/fonts/omegaforcehalftoneitalic-qzd2-webfont.woff2') format('woff2'),
-         url('https://www.midnightmonsters.net/css/fonts/omegaforcehalftoneitalic-qzd2-webfont.woff') format('woff');
+    src: url('./css/fonts/omegaforcehalftoneitalic-qzd2-webfont.woff2') format('woff2'),
+         url('./css/fonts/omegaforcehalftoneitalic-qzd2-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -506,8 +506,8 @@ a:visited
 
 @font-face {
     font-family: 'omegaforce_halftoneregular';
-    src: url('https://www.midnightmonsters.net/css/fonts/omegaforcehalftoneregular-pzlk-webfont.woff2') format('woff2'),
-         url('https://www.midnightmonsters.net/css/fonts/omegaforcehalftoneregular-pzlk-webfont.woff') format('woff');
+    src: url('./css/fonts/omegaforcehalftoneregular-pzlk-webfont.woff2') format('woff2'),
+         url('./css/fonts/omegaforcehalftoneregular-pzlk-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -518,8 +518,8 @@ a:visited
 
 @font-face {
     font-family: 'omegaforce_italicitalic';
-    src: url('https://www.midnightmonsters.net/css/fonts/omegaforceitalic-vaez-webfont.woff2') format('woff2'),
-         url('https://www.midnightmonsters.net/css/fonts/omegaforceitalic-vaez-webfont.woff') format('woff');
+    src: url('./css/fonts/omegaforceitalic-vaez-webfont.woff2') format('woff2'),
+         url('./css/fonts/omegaforceitalic-vaez-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -530,8 +530,8 @@ a:visited
 
 @font-face {
     font-family: 'omegaforce_laser_italicitalic';
-    src: url('https://www.midnightmonsters.net/css/fonts/omegaforcelaseritalic-g2mq-webfont.woff2') format('woff2'),
-         url('https://www.midnightmonsters.net/css/fonts/omegaforcelaseritalic-g2mq-webfont.woff') format('woff');
+    src: url('./css/fonts/omegaforcelaseritalic-g2mq-webfont.woff2') format('woff2'),
+         url('./css/fonts/omegaforcelaseritalic-g2mq-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -542,8 +542,8 @@ a:visited
 
 @font-face {
     font-family: 'omegaforce_laserregular';
-    src: url('https://www.midnightmonsters.net/css/fonts/omegaforcelaserregular-j7va-webfont.woff2') format('woff2'),
-         url('https://www.midnightmonsters.net/css/fonts/omegaforcelaserregular-j7va-webfont.woff') format('woff');
+    src: url('./css/fonts/omegaforcelaserregular-j7va-webfont.woff2') format('woff2'),
+         url('./css/fonts/omegaforcelaserregular-j7va-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -554,8 +554,8 @@ a:visited
 
 @font-face {
     font-family: 'omegaforce_leftalicitalic';
-    src: url('https://www.midnightmonsters.net/css/fonts/omegaforceleftalic-jzqr-webfont.woff2') format('woff2'),
-         url('https://www.midnightmonsters.net/css/fonts/omegaforceleftalic-jzqr-webfont.woff') format('woff');
+    src: url('./css/fonts/omegaforceleftalic-jzqr-webfont.woff2') format('woff2'),
+         url('./css/fonts/omegaforceleftalic-jzqr-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -566,8 +566,8 @@ a:visited
 
 @font-face {
     font-family: 'omegaforce_outline_italicIt';
-    src: url('https://www.midnightmonsters.net/css/fonts/omegaforceoutlineitalic-5zkb-webfont.woff2') format('woff2'),
-         url('https://www.midnightmonsters.net/css/fonts/omegaforceoutlineitalic-5zkb-webfont.woff') format('woff');
+    src: url('./css/fonts/omegaforceoutlineitalic-5zkb-webfont.woff2') format('woff2'),
+         url('./css/fonts/omegaforceoutlineitalic-5zkb-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -578,8 +578,8 @@ a:visited
 
 @font-face {
     font-family: 'omegaforce_outlineregular';
-    src: url('https://www.midnightmonsters.net/css/fonts/omegaforceoutlineregular-zz10-webfont.woff2') format('woff2'),
-         url('https://www.midnightmonsters.net/css/fonts/omegaforceoutlineregular-zz10-webfont.woff') format('woff');
+    src: url('./css/fonts/omegaforceoutlineregular-zz10-webfont.woff2') format('woff2'),
+         url('./css/fonts/omegaforceoutlineregular-zz10-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -590,8 +590,8 @@ a:visited
 
 @font-face {
     font-family: 'omegaforceregular';
-    src: url('https://www.midnightmonsters.net/css/fonts/omegaforceregular-ozpa-webfont.woff2') format('woff2'),
-         url('https://www.midnightmonsters.net/css/fonts/omegaforceregular-ozpa-webfont.woff') format('woff');
+    src: url('./css/fonts/omegaforceregular-ozpa-webfont.woff2') format('woff2'),
+         url('./css/fonts/omegaforceregular-ozpa-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -602,8 +602,8 @@ a:visited
 
 @font-face {
     font-family: 'omegaforce_twotone_italicIt';
-    src: url('https://www.midnightmonsters.net/css/fonts/omegaforcetwotoneitalic-yznm-webfont.woff2') format('woff2'),
-         url('https://www.midnightmonsters.net/css/fonts/omegaforcetwotoneitalic-yznm-webfont.woff') format('woff');
+    src: url('./css/fonts/omegaforcetwotoneitalic-yznm-webfont.woff2') format('woff2'),
+         url('./css/fonts/omegaforcetwotoneitalic-yznm-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -614,8 +614,8 @@ a:visited
 
 @font-face {
     font-family: 'omegaforce_twotoneregular';
-    src: url('https://www.midnightmonsters.net/css/fonts/omegaforcetwotoneregular-632g-webfont.woff2') format('woff2'),
-         url('https://www.midnightmonsters.net/css/fonts/omegaforcetwotoneregular-632g-webfont.woff') format('woff');
+    src: url('./css/fonts/omegaforcetwotoneregular-632g-webfont.woff2') format('woff2'),
+         url('./css/fonts/omegaforcetwotoneregular-632g-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -623,8 +623,8 @@ a:visited
 
 @font-face {
     font-family: 'lane_-_narrowregular';
-    src: url('https://www.midnightmonsters.net/css/fonts/lanenar-webfont.woff2') format('woff2'),
-         url('https://www.midnightmonsters.net/css/fonts/lanenar-webfont.woff') format('woff');
+    src: url('./css/fonts/lanenar-webfont.woff2') format('woff2'),
+         url('./css/fonts/lanenar-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
